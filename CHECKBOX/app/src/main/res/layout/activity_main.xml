@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Ordering System"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <CheckBox
+        android:id="@+id/cbPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza (150)"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger (120)"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbCoffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee (80)"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Bill"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
