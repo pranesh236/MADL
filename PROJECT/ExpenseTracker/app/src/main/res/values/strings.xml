@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="total_expense_label">Total Expense</string>
+    <string name="total_spent_month">Total Spent This Month</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="no_expenses_yet">No expenses yet</string>
+    <string name="add_expense_description">Add Expense</string>
+    <string name="add_new_expense_title">Add New Expense</string>
+    <string name="edit_expense_title">Edit Expense</string>
+    <string name="amount_hint">Enter Amount</string>
+    <string name="description_hint">Enter Description</string>
+    <string name="category_label">Select Category</string>
+    <string name="save_button">Save Expense</string>
+    <string name="update_button">Update Expense</string>
+    <string name="delete_expense">Delete Expense</string>
+    <string name="delete_confirm">Are you sure you want to delete this expense?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="expense_deleted">Expense deleted</string>
+    <string name="undo">UNDO</string>
+    <string name="redo">REDO</string>
+    <string name="expense_added">Expense Added</string>
+    <string name="expense_updated">Expense Updated</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="amount_greater_zero">Amount must be greater than 0</string>
+    <string name="currency_format">₹ %.2f</string>
+    <string name="amount_format">₹ %s</string>
+</resources>
